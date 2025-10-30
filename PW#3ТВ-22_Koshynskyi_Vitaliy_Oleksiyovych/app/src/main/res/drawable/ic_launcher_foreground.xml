@@ -1,0 +1,59 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108"
+    android:alpha="0.9">
+
+    <!-- Фон з закругленими кутами -->
+    <path
+        android:fillColor="#3A3A3A"
+        android:pathData="M24,4h60a20,20 0,0 1,20 20v60a20,20 0,0 1,-20 20h-60a20,20 0,0 1,-20 -20v-60a20,20 0,0 1,20 -20z"/>
+
+    <!-- Світловий ефект (відблиск) -->
+    <path
+        android:fillColor="#66FFFFFF"
+        android:pathData="M24,4h60a20,20 0,0 1,20 20l-4,4a16,16 0,0 0,-16 -16h-56a16,16 0,0 0,-16 16l-4,-4a20,20 0,0 1,20 -20z"/>
+
+    <!-- Екран -->
+    <path
+        android:fillColor="#252525"
+        android:pathData="M30,18h48a6,6 0,0 1,6 6v12a6,6 0,0 1,-6 6h-48a6,6 0,0 1,-6 -6v-12a6,6 0,0 1,6 -6z"/>
+
+    <!-- Відображення на екрані (цифра 0) -->
+    <path
+        android:fillColor="#FF9500"
+        android:pathData="M68,28h-2v-2h2v2z M66,28h-2v-2h2v2z M64,28h-2v-2h2v2z M62,28h-2v-2h2v2z"/>
+
+    <!-- Сітка кнопок -->
+    <group android:translateX="30" android:translateY="40">
+        <!-- Ряд 1 -->
+        <path android:fillColor="#555" android:pathData="M0,0a6,6 0,1 0,12 0a6,6 0,1 0,-12 0z"/>
+        <path android:fillColor="#555" android:pathData="M18,0a6,6 0,1 0,12 0a6,6 0,1 0,-12 0z"/>
+        <path android:fillColor="#555" android:pathData="M36,0a6,6 0,1 0,12 0a6,6 0,1 0,-12 0z"/>
+        <path android:fillColor="#FF9500" android:pathData="M54,0a6,6 0,1 0,12 0a6,6 0,1 0,-12 0z"/>
+
+        <!-- Ряд 2 -->
+        <path android:fillColor="#666" android:pathData="M0,18a6,6 0,1 0,12 0a6,6 0,1 0,-12 0z"/>
+        <path android:fillColor="#666" android:pathData="M18,18a6,6 0,1 0,12 0a6,6 0,1 0,-12 0z"/>
+        <path android:fillColor="#666" android:pathData="M36,18a6,6 0,1 0,12 0a6,6 0,1 0,-12 0z"/>
+        <path android:fillColor="#FF9500" android:pathData="M54,18a6,6 0,1 0,12 0a6,6 0,1 0,-12 0z"/>
+
+        <!-- Ряд 3 -->
+        <path android:fillColor="#666" android:pathData="M0,36a6,6 0,1 0,12 0a6,6 0,1 0,-12 0z"/>
+        <path android:fillColor="#666" android:pathData="M18,36a6,6 0,1 0,12 0a6,6 0,1 0,-12 0z"/>
+        <path android:fillColor="#666" android:pathData="M36,36a6,6 0,1 0,12 0a6,6 0,1 0,-12 0z"/>
+        <path android:fillColor="#FF9500" android:pathData="M54,36a6,6 0,1 0,12 0a6,6 0,1 0,-12 0z"/>
+
+        <!-- Ряд 4 -->
+        <path android:fillColor="#444" android:pathData="M0,54a6,6 0,1 0,12 0a6,6 0,1 0,-12 0z"/>
+        <path android:fillColor="#444" android:pathData="M18,54a6,6 0,1 0,12 0a6,6 0,1 0,-12 0z"/>
+        <path android:fillColor="#444" android:pathData="M36,54a6,6 0,1 0,12 0a6,6 0,1 0,-12 0z"/>
+        <path android:fillColor="#FF9500" android:pathData="M54,54a6,6 0,1 0,12 0a6,6 0,1 0,-12 0z"/>
+    </group>
+
+    <!-- Акцентна деталь (нижній відблиск) -->
+    <path
+        android:fillColor="#22FFFFFF"
+        android:pathData="M24,84h60a20,20 0,0 1,-20 20h-60a20,20 0,0 1,20 -20z"/>
+</vector>
